@@ -5,9 +5,9 @@
 #    pip-compile
 #
 click==7.0                # via pip-tools
-django==2.2.8
-djangorestframework==3.11.0
-pip-tools==4.3.0
+django==2.2.13            # via -r requirements.in, djangorestframework
+djangorestframework==3.11.0  # via -r requirements.in
+pip-tools==4.3.0          # via -r requirements.in
 pytz==2019.3              # via django
 six==1.13.0               # via pip-tools
 sqlparse==0.3.0           # via django
